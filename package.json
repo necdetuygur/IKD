@@ -1,0 +1,34 @@
+{
+  "name": "ikd",
+  "version": "1.0.5",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "ikd": "index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/necdetuygur/ikd.git"
+  },
+  "keywords": [
+    "ikd",
+    "iko"
+  ],
+  "author": "Necdet UYGUR <necdet.uygur@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/necdetuygur/ikd/issues"
+  },
+  "homepage": "https://github.com/necdetuygur/ikd#readme",
+  "dependencies": {
+    "axios": "^1.7.7",
+    "cheerio": "^1.0.0",
+    "express": "^4.19.2",
+    "ws": "^8.18.0"
+  }
+}
